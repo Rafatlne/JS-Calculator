@@ -33,10 +33,20 @@
     cursor: pointer;
 }
 
+.calc-button:hover{
+	background-color: #bbb;
+}
+
 .calc-button:last-child {
     background-color: rgb(223, 151, 76);
     color: white;
 }
+
+.calc-button:last-child:hover {
+    background-color: rgb(240, 170, 76);
+    color: white;
+}
+
 
 .double{
     width: 49.7%;
